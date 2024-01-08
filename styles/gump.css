@@ -1,0 +1,67 @@
+/* header part */
+
+.container{
+    width:82%;
+    max-width:1574px;
+    margin:41px 115px 0px 115px;
+    border-radius: 16px;
+    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00)); */
+}
+.new-text{
+      position:relative;
+      padding:191px 282px 145px 282px;
+}
+.new-image{
+    position:absolute;
+}
+.new-text .headd{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 740px; 
+}
+.new-text .head-text{
+    color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 328;
+}
+/* main section */
+.container-holiday{
+    width:82%;
+    max-width:805px;
+    height: 800px;
+    margin:80px 398px 0px 398px;
+}
+.holiday-text{
+    text-align: center;
+    font-family: Inter;
+}
+.holiday-text .off{
+color: #F00;
+font-size: 73px;
+font-style: normal;
+font-weight:574px;
+line-height: normal;
+}
+.holiday-text .better{
+    color: #F00;
+    font-size: 20px;
+   font-style: normal;
+   font-weight: 410px;
+   line-height: normal;
+}
+.holiday-text .categories{
+    color: #070211;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 570;
+   line-height: normal;
+}
+
+
+   
