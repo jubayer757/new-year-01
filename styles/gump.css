@@ -31,6 +31,8 @@
   font-weight: 328;
 }
 /* main section */
+
+/* new year */
 .container-holiday{
     width:82%;
     max-width:805px;
@@ -54,6 +56,7 @@ line-height: normal;
    font-style: normal;
    font-weight: 410px;
    line-height: normal;
+  
 }
 .holiday-text .categories{
     color: #070211;
@@ -62,6 +65,42 @@ line-height: normal;
   font-weight: 570;
    line-height: normal;
 }
+/* midnight party  */
+.new-year-img{
+    position:absolute;
+}
 
-
-   
+.imagetext {
+    position: relative;
+    display:flex;
+    
+}
+.new-text{
+    text-align: center;
+}
+.new-img{
+    align-items: end;
+}
+.new-text .welcome-text{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 738;
+    letter-spacing: 5.77px;   
+}
+.new-text .lorem{
+    color: rgba(255, 255, 255, 0.80);
+   font-family: Inter;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 328;
+}
+.new-text .join{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-weight: 574;
+text-transform: uppercase;
+}
