@@ -5,8 +5,7 @@
     max-width:1574px;
     margin:41px 115px 0px 115px;
     border-radius: 16px;
-
-    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00)); */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00));
 }
 .new-text{
       position:relative;
@@ -39,6 +38,7 @@
     max-width:805px;
     height: 800px;
     margin:80px 398px 0px 398px;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .holiday-text{
     text-align: center;
@@ -69,6 +69,7 @@ line-height: normal;
 /* midnight party  */
 .new-year-img{
     position:absolute;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
 .imagetext {
@@ -88,7 +89,8 @@ line-height: normal;
     font-size: 52px;
     font-style: normal;
     font-weight: 738;
-    letter-spacing: 5.77px;   
+    letter-spacing: 5.77px; 
+    /* padding:80px 420px 210px 80px;   */
 }
 .new-text .lorem{
     color: rgba(255, 255, 255, 0.80);
@@ -119,18 +121,19 @@ text-transform: uppercase;
    
     text-align: center;
     font-family: Inter;
-    padding:80px 315px 175px 315px;
+    padding:80px 315px 50px 315px;
    text-align: center;
    font-size: 26px;
    font-weight: 492;
 
 }
 .box-join{
+    border-radius: 16px;
     text-align: center;
     font-family: Inter;
     color: #FFF;
      font-size: 16px;
     font-style: normal;
     text-transform: uppercase;
-    padding:10px 500px 8px 500px;
+    padding:0px 500px 8px 500px;
 }
