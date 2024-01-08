@@ -5,6 +5,7 @@
     max-width:1574px;
     margin:41px 115px 0px 115px;
     border-radius: 16px;
+
     /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00)); */
 }
 .new-text{
@@ -103,4 +104,33 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 574;
 text-transform: uppercase;
+}
+/* box  */
+.box{
+    width:82%;
+    max-width:1574px;
+    height:490px;
+    background-color:burlywood;
+    margin:0 auto;
+    border-radius: 16px;
+    
+}
+.box .box-text{
+   
+    text-align: center;
+    font-family: Inter;
+    padding:80px 315px 175px 315px;
+   text-align: center;
+   font-size: 26px;
+   font-weight: 492;
+
+}
+.box-join{
+    text-align: center;
+    font-family: Inter;
+    color: #FFF;
+     font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    padding:10px 500px 8px 500px;
 }
