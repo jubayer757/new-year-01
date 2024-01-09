@@ -3,7 +3,8 @@
 .container{
     width:82%;
     max-width:1574px;
-    margin:41px 115px 0px 115px;
+    margin:0 auto;
+    /* margin:41px 115px 0px 115px; */
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00));
 }
@@ -37,7 +38,8 @@
     width:82%;
     max-width:805px;
     height: 800px;
-    margin:80px 398px 0px 398px;
+    margin:0 auto;
+    /* margin:80px 398px 0px 398px; */
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .holiday-text{
@@ -136,4 +138,72 @@ text-transform: uppercase;
     font-style: normal;
     text-transform: uppercase;
     padding:0px 500px 8px 500px;
+}
+/* portfolio */
+.port-container{
+    width:82%;
+    max-width:1574px;
+    height:950px;
+    background-color:white;
+    /* margin:41px 140px 0px 140px; */
+    margin:0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+.awesome{
+    color: #070211;
+   font-family: Merriweather;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   text-transform: capitalize;
+}
+.gift{
+     color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 328;
+     
+}
+.flex-img{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+}
+.flex-img-01{
+    width:355px;
+    height:369px;
+    padding: 0px 24px 24px 0px;
+    
+}
+.flex-img-02{
+    width:355px;
+    height:369px;
+    padding: 0px 24px 24px 24px;
+    
+}
+.flex-img-03{
+    width:355px;
+    height:369px;
+    padding: 0px 0px 24px 24px;
+}
+.flex-img-04{
+    width:355px;
+    height:369px;
+    padding: 0px 24px 0px 0px;
+}
+.flex-img-05{
+    width:355px;
+    height:369px;
+    padding: 0px 24px 0px 0px;
+}
+.flex-img-06{
+    width:355px;
+    height:369px;
+    padding: 0px 0px 0px 0px;
 }
