@@ -254,6 +254,31 @@ input{
     flex-grow:1;
     border:none;
     border-radius:3px;
-    outline:green;
+    outline:rgb(128, 0, 92);
     
 }
+/* footer part */
+footer{
+    max-height: 500px;
+    width:100%;
+    max-width:1574px;
+    max-height: 500px;
+    margin:0 auto;
+    border-radius: 16px;
+    background-color:black
+}
+
+.footer-text p{
+    padding: 98px 889px 335px 114px;
+    font-family: Inter;
+    display:flex;
+}
+
+/* .footer-ninja .footer-contact p{
+   text-align: center;
+   
+} */
+/* .foot-text{
+    
+
+} */
